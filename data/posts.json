@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "slug": "getting-started-with-nextjs",
+    "title": "Getting Started with Next.js 15",
+    "excerpt": "Learn the basics of Next.js 15 and build your first application with the App Router.",
+    "content": "Next.js 15 introduces powerful new features including improved performance, better developer experience, and enhanced support for React Server Components. The App Router provides an intuitive way to structure your application with nested routing, layouts, and built-in data fetching capabilities.\n\nIn this guide, we'll explore the fundamental concepts and get you up to speed quickly.",
+    "category": "Web Dev",
+    "author": "Jane Doe",
+    "date": "2025-01-10",
+    "readTime": 5,
+    "featured": true
+  },
+  {
+    "id": 2,
+    "slug": "tailwind-css-tips",
+    "title": "Tailwind CSS Tips and Tricks",
+    "excerpt": "Master Tailwind CSS with these essential tips for efficient and maintainable styling.",
+    "content": "Tailwind CSS makes it easy to style your applications without leaving your HTML. In this article, we'll cover utility-first CSS principles, responsive design patterns, and how to customize Tailwind for your brand.\n\nYou'll learn how to leverage Tailwind's powerful configuration system and create reusable component patterns.",
+    "category": "Design",
+    "author": "John Smith",
+    "date": "2025-01-05",
+    "readTime": 8,
+    "featured": true
+  },
+  {
+    "id": 3,
+    "slug": "react-server-components",
+    "title": "Understanding React Server Components",
+    "excerpt": "Deep dive into React Server Components and how they improve application performance.",
+    "content": "React Server Components represent a paradigm shift in how we build React applications. They allow you to render components on the server and send only the necessary data to the client, reducing bundle size and improving performance.\n\nThis article explores the benefits, use cases, and best practices for implementing Server Components in your Next.js applications.",
+    "category": "Web Dev",
+    "author": "Jane Doe",
+    "date": "2024-12-28",
+    "readTime": 10,
+    "featured": false
+  },
+  {
+    "id": 4,
+    "slug": "ai-tools-2025",
+    "title": "Top AI Development Tools for 2025",
+    "excerpt": "Discover the most promising AI tools and frameworks for developers this year.",
+    "content": "The AI landscape is evolving rapidly with new tools emerging every month. From machine learning platforms to AI-assisted coding tools, developers have more options than ever.\n\nWe've tested dozens of tools to bring you the most useful ones for different development scenarios.",
+    "category": "AI",
+    "author": "Alex Johnson",
+    "date": "2025-01-08",
+    "readTime": 7,
+    "featured": true
+  },
+  {
+    "id": 5,
+    "slug": "business-metrics",
+    "title": "Essential Business Metrics for Startups",
+    "excerpt": "Key performance indicators every startup founder should track.",
+    "content": "Tracking the right metrics can make or break your startup. While vanity metrics might look good on paper, actionable metrics provide real insights into your business health.\n\nThis guide covers essential KPIs across acquisition, activation, revenue, retention, and referral.",
+    "category": "Business",
+    "author": "Sarah Wilson",
+    "date": "2025-01-03",
+    "readTime": 6,
+    "featured": false
+  },
+  {
+    "id": 6,
+    "slug": "javascript-es2025",
+    "title": "What's New in JavaScript ES2025",
+    "excerpt": "Explore upcoming JavaScript features and how they'll change your development workflow.",
+    "content": "JavaScript continues to evolve with exciting new features. ES2025 brings improvements to arrays, promises, and introduces new syntax that makes code more readable and maintainable.\n\nWe'll look at the proposals likely to land in 2025 and how to start using them today.",
+    "category": "Tech",
+    "author": "Mike Chen",
+    "date": "2024-12-20",
+    "readTime": 9,
+    "featured": false
+  },
+  {
+    "id": 7,
+    "slug": "travel-digital-nomad",
+    "title": "Best Cities for Digital Nomads in 2025",
+    "excerpt": "Discover the top destinations for remote workers this year.",
+    "content": "The digital nomad lifestyle continues to grow, and cities around the world are competing to attract remote workers. From affordable living costs to thriving expat communities, these cities offer the perfect balance for location-independent professionals.\n\nWe've evaluated factors like internet speed, cost of living, and community vibes to create this list.",
+    "category": "Travel",
+    "author": "Emma Garcia",
+    "date": "2025-01-12",
+    "readTime": 5,
+    "featured": true
+  },
+  {
+    "id": 8,
+    "slug": "typescript-advanced",
+    "title": "Advanced TypeScript Patterns",
+    "excerpt": "Level up your TypeScript skills with these advanced patterns and techniques.",
+    "content": "TypeScript offers powerful type system features that go beyond basic interfaces and types. Conditional types, template literal types, and mapped types can help you create more robust and maintainable code.\n\nThis article dives into complex patterns that will make you a TypeScript expert.",
+    "category": "Tutorials",
+    "author": "Robert Kim",
+    "date": "2024-12-15",
+    "readTime": 12,
+    "featured": false
+  },
+  {
+    "id": 9,
+    "slug": "tech-news-2025",
+    "title": "Tech Industry Predictions for 2025",
+    "excerpt": "What to expect in the tech world this year based on current trends.",
+    "content": "The tech industry never stands still. From AI advancements to new hardware releases, 2025 promises to be an exciting year for technology.\n\nBased on industry analysis and insider information, we predict the biggest trends and breakthroughs you should watch out for.",
+    "category": "News",
+    "author": "Tech Insights Team",
+    "date": "2025-01-01",
+    "readTime": 8,
+    "featured": true
+  },
+  {
+    "id": 10,
+    "slug": "ux-design-principles",
+    "title": "10 Essential UX Design Principles",
+    "excerpt": "Core principles every designer should follow to create exceptional user experiences.",
+    "content": "Great UX design isn't just about aesthetics—it's about creating intuitive, accessible, and delightful experiences. These ten principles form the foundation of effective user-centered design.\n\nWhether you're designing a website or mobile app, these principles will help you create better products.",
+    "category": "Design",
+    "author": "Lisa Wong",
+    "date": "2024-12-10",
+    "readTime": 6,
+    "featured": false
+  }
+]

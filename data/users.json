@@ -1,0 +1,12 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "email": "admin@blog.com",
+      "password": "$2a$10$8K1p/Z1.TL57jVN3s1aKO.lV4XC6c1PaVD8OBZh/5KUXqMqrFQw4e",
+      "role": "admin",
+      "createdAt": "2025-01-01"
+    }
+  ]
+}

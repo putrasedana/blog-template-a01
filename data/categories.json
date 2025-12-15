@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Tech",
+    "slug": "tech",
+    "description": "Technology news and updates"
+  },
+  {
+    "id": 2,
+    "name": "Business",
+    "slug": "business",
+    "description": "Business insights and strategies"
+  },
+  {
+    "id": 3,
+    "name": "Tutorials",
+    "slug": "tutorials",
+    "description": "Step-by-step guides and educational content"
+  },
+  {
+    "id": 4,
+    "name": "Travel",
+    "slug": "travel",
+    "description": "Travel stories and destinations"
+  },
+  {
+    "id": 5,
+    "name": "AI",
+    "slug": "ai",
+    "description": "Artificial intelligence and machine learning"
+  },
+  {
+    "id": 6,
+    "name": "Web Dev",
+    "slug": "web-dev",
+    "description": "Web development tips and frameworks"
+  },
+  {
+    "id": 7,
+    "name": "Design",
+    "slug": "design",
+    "description": "Design patterns, UI/UX, and styling"
+  },
+  {
+    "id": 8,
+    "name": "News",
+    "slug": "news",
+    "description": "Latest updates and announcements"
+  }
+]
