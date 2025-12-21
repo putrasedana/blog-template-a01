@@ -3,7 +3,6 @@
 
 import type React from "react";
 import { useState } from "react";
-import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -17,14 +16,7 @@ import {
 } from "@/components/ui/card";
 import { Alert, AlertDescription } from "@/components/ui/alert";
 import { Label } from "@/components/ui/label";
-import {
-  AlertCircle,
-  Loader2,
-  Mail,
-  CheckCircle,
-  Key,
-  ArrowLeft,
-} from "lucide-react";
+import { AlertCircle, Loader2, Mail, CheckCircle } from "lucide-react";
 
 export default function ForgotPasswordPage() {
   const [email, setEmail] = useState("");
@@ -32,7 +24,6 @@ export default function ForgotPasswordPage() {
   const [success, setSuccess] = useState("");
   const [isLoading, setIsLoading] = useState(false);
   const [isEmailSent, setIsEmailSent] = useState(false);
-  const router = useRouter();
 
   const handleRequestReset = async (e: React.FormEvent) => {
     e.preventDefault();

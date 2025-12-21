@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { format } from "date-fns";
 
 interface PostCardProps {
   slug: string;
@@ -61,7 +60,7 @@ export function PostCard({
           </p>
           <div className="flex justify-between items-center text-xs text-muted-foreground">
             <span>{author}</span>
-            <span>{format(new Date(date), "MMM d, yyyy")}</span>
+            <span>{formatDate(date)}</span>
           </div>
         </CardContent>
       </Card>

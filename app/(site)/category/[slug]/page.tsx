@@ -4,6 +4,9 @@ import { PostCard } from "@/components/post-card";
 import { getCategory, getPostsByCategory } from "@/lib/blog-utils";
 import { notFound } from "next/navigation";
 import { use } from "react";
+import { useRouter } from "next/navigation"; // Add this import
+import { Button } from "@/components/ui/button"; // Add button component import
+import { ChevronLeft } from "lucide-react"; // Optional: Add an icon
 
 export default function CategoryDetailPage({
   params,
@@ -11,6 +14,7 @@ export default function CategoryDetailPage({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = use(params);
+  const router = useRouter(); // Initialize the router
 
   const category = getCategory(slug);
 
@@ -25,6 +29,16 @@ export default function CategoryDetailPage({
   return (
     <div className="flex flex-col">
       <main className="flex-1 max-w-4xl mx-auto px-4 sm:px-6 lg:px-0 py-12 w-full">
+        {/* Back Button */}
+        <Button
+          variant="ghost"
+          onClick={() => router.back()}
+          className="mb-6 -ml-2"
+        >
+          <ChevronLeft className="h-4 w-4" />
+          Back
+        </Button>
+
         <h1 className="text-4xl font-bold mb-2">{category.name}</h1>
         <p className="text-muted-foreground mb-8">{category.description}</p>
 
